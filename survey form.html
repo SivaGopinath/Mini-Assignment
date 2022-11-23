@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        table{
+            width: 100%;
+            border-style: none;
+            border-spacing: 10px;
+            padding: 20px;
+            border-collapse: collapse;
+        }
+        th{
+            width: 20%;
+            text-align: justify;
+        }
+        td{
+            padding: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label><span><b>Name</b></span><span style="color: red;">*</span></label><br/>
+        <input type="text" name="First">    <input type="text" name="Last"><br/>
+        <span>First</span>
+        <span style="float: right; column-width: 69pc;" >Last</span><br/><br/>
+        <label><span><b>Email</b></span><span style="color: red;">*</span></label><br/>
+        <input type="text" name="email" style="padding-right: 10%;"><br/><br/>
+        <label><span><b>Your Experience</b></span><span style="color: red;">*</span></label>
+        <h4>⭐⭐⭐⭐⭐</h4>
+        <p>Overall,how would u rate you experience with us?</p>
+        <label><span><b>How satisfied are you with</b></span><span style="color: red;">*</span></label><br/><br/>
+        <table>
+            <tr>
+                <th></th>
+                <th>very Unsatisfied</th>
+                <th>Unsatisfied</th>
+                <th>Neutral</th>
+                <th>Satisfied</th>
+                <th>Very Satisfied</th>
+            </tr>
+            <tr style="background-color: gainsboro;">
+                <td>Purchase</td>
+                <td><input type="radio" name="Purchase"></td>
+                <td><input type="radio" name="Purchase"></td>
+                <td><input type="radio" name="Purchase"></td>
+                <td><input type="radio" name="Purchase"></td>
+                <td><input type="radio" name="Purchase"></td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Service</td>
+                    <td><input type="radio" name="Service"></td>
+                    <td><input type="radio" name="Service"></td>
+                    <td><input type="radio" name="Service"></td>
+                    <td><input type="radio" name="Service"></td>
+                    <td><input type="radio" name="Service"></td>
+            </tr>
+            <tr style="background-color: gainsboro;">
+                <td >Company Overall</td>
+                    <td><input type="radio" name="Company Overall"></td>
+                    <td><input type="radio" name="Company Overall"></td>
+                    <td><input type="radio" name="Company Overall"></td>
+                    <td><input type="radio" name="Company Overall"></td>
+                    <td><input type="radio" name="Company Overall"></td>
+            </tr>
+        </table>
+        <br/><br/>
+        <label><span><b>How likely are you to</b></span><span style="color: red;">*</span></label><br/><br/>
+        <table>
+            <tr>
+                <th></th>
+                <th>very Unlikely</th>
+                <th>Unlikely</th>
+                <th>Neutral</th>
+                <th>likely</th>
+                <th>Very likely</th>
+            </tr>
+            <tr style="background-color: gainsboro;">
+                <td >Buy from us again</td>
+                <td><input type="radio" name="Buy from us again"></td>
+                <td><input type="radio" name="Buy from us again"></td>
+                <td><input type="radio" name="Buy from us again"></td>
+                <td><input type="radio" name="Buy from us again"></td>
+                <td><input type="radio" name="Buy from us again"></td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Recommend our product to others</td>
+                    <td><input type="radio" name="Recommend our product to others"></td>
+                    <td><input type="radio" name="Recommend our product to others"></td>
+                    <td><input type="radio" name="Recommend our product to others"></td>
+                    <td><input type="radio" name="Recommend our product to others"></td>
+                    <td><input type="radio" name="Recommend our product to others"></td>
+            </tr>
+            <tr style="background-color: gainsboro;">
+                <td>Recommend our company to others</td>
+                    <td><input type="radio" name="Recommend our company to others"></td>
+                    <td><input type="radio" name="Recommend our company to others"></td>
+                    <td><input type="radio" name="Recommend our company to others"></td>
+                    <td><input type="radio" name="Recommend our company to others"></td>
+                    <td><input type="radio" name="Recommend our company to others"></td>
+            </tr>
+        </table><br/><br/>
+        <label><b>Additional comments or suggestions</b></label><br/>
+        <textarea rows="5" cols="100">
+
+        </textarea>
+        <br/><br/>
+
+
+        <button type="submit">Submit</button>
+        
+
+
+    </form>
+    
+</body>
+</html>
